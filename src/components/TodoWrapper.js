@@ -49,13 +49,13 @@ export const TodoWrapper = () => {
         todo.isEditing ? (
           <EditTodoForm editTodo={editTask} task={todo} />
         ) : (
-          <Todo
+          <b><Todo
             key={todo.id}
             task={todo}
             deleteTodo={deleteTodo}
             editTodo={editTodo}
             toggleComplete={toggleComplete}
-          />
+          /></b>
         )
       )}
     </div>
