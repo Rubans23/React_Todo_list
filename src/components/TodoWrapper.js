@@ -55,7 +55,9 @@ export const TodoWrapper = () => {
             deleteTodo={deleteTodo}
             editTodo={editTodo}
             toggleComplete={toggleComplete}
-          /></b>
+          />
+          .
+          </b>
         )
       )}
     </div>
